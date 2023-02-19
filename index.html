@@ -355,14 +355,59 @@
 </div>
 </footer>
 
-<div class="backdrop is-hidden" data-modal>
+<!-------модальне вікно---------->>
+<div class="backdrop" data-modal>
     <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
             <svg class="modal-icon">
                 <use href="./images/sprite-svg.svg#icon-modalsvg"></use>
             </svg>
-
         </button>
+<!----------форма модального вікна-------->
+
+        <form class="modal-form">
+            <label class="modal-form-field">
+                <span class="modal-form-label-text">Name</span>
+                <input type="text" 
+                name="user_name" 
+                class="modal-form-input" 
+                required 
+                minlength="2">
+            </input>
+            </label>
+            <label class="modal-form-field">
+                <span class="modal-form-label-text">Phone</span>
+                <input type="tel" 
+                name="user_phone" 
+                class="modal-form-input" 
+                required>
+            </input>
+            </label>
+            <label class="modal-form-field">
+                <span class="modal-form-label-text">Email</span>
+                <input type="email" 
+                name="user_email" 
+                class="modal-form-input" 
+                required>
+            </input>
+            </label>
+            <label class="modal-form-field">
+                <span class="modal-form-label-text">Comment</span>
+                <textarea 
+                name="user_message" 
+                id="" 
+                class="modal-text-message" 
+                placeholder="Text input"></textarea></label>
+           
+            <input id="user-polisy" 
+            type="checkbox" 
+            name="user_polisy" 
+            class="modal-form-check">
+            <label for="user-polisy" class="modal-form-check-desc">
+                I accept the terms and conditions of the <a href="">Privacy Policy</a>
+            </label>
+            <batton type="submit" class="modal-form-submit">Send</batton>
+        </form>
     </div>
 </div>
 <script src="./js/modal.js"></script>
