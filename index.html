@@ -356,7 +356,7 @@
 </footer>
 
 <!-------модальне вікно---------->>
-<div class="backdrop" data-modal>
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
             <svg class="modal-icon">
@@ -368,28 +368,40 @@
         <form class="modal-form">
             <label class="modal-form-field">
                 <span class="modal-form-label-text">Name</span>
+                <span class="modal-icon-div">
                 <input type="text" 
                 name="user_name" 
                 class="modal-form-input" 
                 required 
                 minlength="2">
             </input>
+            <svg class="modal-svg-input">
+            <use href="./images/sprite-svg.svg#icon-person-black"></use>
+            </svg></span>
             </label>
             <label class="modal-form-field">
                 <span class="modal-form-label-text">Phone</span>
+                <span class="modal-icon-div">
                 <input type="tel" 
                 name="user_phone" 
                 class="modal-form-input" 
                 required>
             </input>
+            <svg class="modal-svg-input">
+                <use href="./images/sprite-svg.svg#icon-phone-black"></use>
+            </svg></span>
             </label>
             <label class="modal-form-field">
                 <span class="modal-form-label-text">Email</span>
+                <span class="modal-icon-div">
                 <input type="email" 
                 name="user_email" 
                 class="modal-form-input" 
                 required>
             </input>
+            <svg class="modal-svg-input">
+                <use href="./images/sprite-svg.svg#icon-email-black"></use>
+            </svg></span>
             </label>
             <label class="modal-form-field">
                 <span class="modal-form-label-text">Comment</span>
@@ -402,9 +414,9 @@
             <input id="user-polisy" 
             type="checkbox" 
             name="user_polisy" 
-            class="modal-form-check">
+            class="modal-form-check visualy-hidden">
             <label for="user-polisy" class="modal-form-check-desc">
-                I accept the terms and conditions of the <a href="">Privacy Policy</a>
+                I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a>
             </label>
             <batton type="submit" class="modal-form-submit">Send</batton>
         </form>
