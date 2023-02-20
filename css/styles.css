@@ -577,8 +577,17 @@ fill: #FFFFFF;
   flex-direction: column;
 }
 
+.modal-form-text {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 16px;
+  color: var(--color-navy-blue-overlay-shadow-heading);
+}
+
 .modal-form-field {
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 
 .modal-form-label-text {
@@ -688,6 +697,10 @@ border-color: var(--color-iris-focus-aktiv-link);
     .modal-form-submit:hover,
     .modal-form-submit:focus {
       background-color: var(--color-ocean-hover-pressed);
+    }
+
+    .modal-click-link {
+      font-family: var(--primary-font);
     }
 
  
