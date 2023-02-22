@@ -535,7 +535,7 @@ transition: transform var(--transition);
   background-color: #FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-padding: 72px 24px 24px 24px;
+padding: 72px 24px 24px;
 }
 
 .modal-icon {
@@ -572,10 +572,6 @@ background-color: var(--color-ocean-hover-pressed);
 fill: #FFFFFF;
 }
 /*=======ФОРМА МОДАЛЬНОГО ВІКНА===========*/
-.modal-form {
-  display: flex;
-  flex-direction: column;
-}
 
 .modal-form-text {
   font-weight: 500;
@@ -587,6 +583,7 @@ fill: #FFFFFF;
 }
 
 .modal-form-field {
+  display: block;
   margin-bottom: 8px;
 }
 
@@ -677,6 +674,7 @@ border-color: var(--color-iris-focus-aktiv-link);
   }
 
   .modal-form-submit {
+
     background-color: var(--color-iris-focus-aktiv-link);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -692,7 +690,7 @@ border-color: var(--color-iris-focus-aktiv-link);
     border: none;
     padding: 16px 32px;
     transition: background-color var(--transition);
-    align-self: center;
+    
     }
     .modal-form-submit:hover,
     .modal-form-submit:focus {
@@ -700,7 +698,7 @@ border-color: var(--color-iris-focus-aktiv-link);
     }
 
     .modal-click-link {
-      font-family: var(--primary-font);
+      color: var(--color-iris-focus-aktiv-link);
     }
 
  
