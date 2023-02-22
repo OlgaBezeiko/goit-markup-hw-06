@@ -408,6 +408,44 @@ padding-bottom: 120px;
   .social-list-link-footer:focus {
     background-color: var(--color-green-akcent);
   }
+
+  .footer-input{
+  background-color: var(--color-navy-blue-overlay-shadow-heading);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+  width: 264px;
+  height: 40px;
+  margin-right: 24px;
+  color: var(--color-body);
+  }
+
+  .footer-input-div {
+    display: flex;
+  }
+
+  .footer-modal-form-div {
+padding-left: 80px;
+  }
+
+.footer-form-button {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  min-width: 77px;
+  color: var(--color-body);
+  letter-spacing: 0.04em;
+  background-color: var(--color-iris-focus-aktiv-link);
+  border-radius: 4px;
+  border: none;
+  padding: 8px 24px;
+    }
+  .button-form-svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-body);
+  }
 /*=============Портфоліо друга сторінка==============================*/
 
 .portfolio-btn-container {
@@ -651,7 +689,7 @@ border-color: var(--color-iris-focus-aktiv-link);
     display: block;
     width: 16px;
     height: 16px;
-    border: 1.25px solid var(--color-navy-blue-overlay-shadow-heading);
+    border: 1px solid var(--color-navy-blue-overlay-shadow-heading);
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
@@ -674,7 +712,8 @@ border-color: var(--color-iris-focus-aktiv-link);
   }
 
   .modal-form-submit {
-
+    display: block;
+    margin: 0 auto;
     background-color: var(--color-iris-focus-aktiv-link);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -682,7 +721,7 @@ border-color: var(--color-iris-focus-aktiv-link);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-body);
-    min-width: 169px;
+    width: 169px;
     text-align: center;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
