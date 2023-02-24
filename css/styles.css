@@ -379,9 +379,7 @@ padding-bottom: 120px;
   }
 
   .social-container-footer {
-    display: flex;
-    flex-direction: column;
-    padding-left: 120px;
+    margin-left: 120px;
   }
     .social-list-footer {
       display: flex;
@@ -421,12 +419,16 @@ padding-bottom: 120px;
   color: var(--color-body);
   }
 
+  .footer-input::placeholder {
+    padding-left: 16px;
+  }
+
   .footer-input-div {
     display: flex;
   }
 
   .footer-modal-form-div {
-padding-left: 80px;
+margin-left: 80px;
   }
 
 .footer-form-button {
@@ -702,8 +704,10 @@ border-color: var(--color-iris-focus-aktiv-link);
     letter-spacing: 0.04em;
     color: #757575;
     margin-bottom: 24px;
+    
   }
 
+  
   .modal-form-check:checked + .modal-form-check-desc::before {
     background-color: var(--color-ocean-hover-pressed);
     background-image: url(../images/click.svg);
