@@ -695,6 +695,7 @@ border-color: var(--color-iris-focus-aktiv-link);
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: var(--transition);
   }
 
   .modal-form-check-desc {
@@ -704,7 +705,6 @@ border-color: var(--color-iris-focus-aktiv-link);
     letter-spacing: 0.04em;
     color: #757575;
     margin-bottom: 24px;
-    
   }
 
   
